@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+body {
+}
+.container {
+  display: flex;
+  padding: 0 5rem;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 4%;
+  top: 0px;
+  background-color: red;
+  transition: all ease-out 0.5s;
+  border: 4px solid darkred;
+}
+
+.upper-half {
+}
+
+.animation-up {
+  top: -30px;
+}
+.animation-down {
+  top: 0px;
+}
